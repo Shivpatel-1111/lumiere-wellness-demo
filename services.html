@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Lumière Wellness Studio</title>
+<meta name="description" content="Explore hair styling, hair coloring, facials, manicures, pedicures and bridal beauty services at Lumière Wellness Studio.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2246%22 fill=%22%235F6E52%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo" aria-label="Lumière Wellness Studio home">
+      <svg class="mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="24" cy="24" r="22" stroke="#A9825A" stroke-width="1.2"/><path d="M24 10c5 6 8 9.5 8 14.5A8 8 0 1 1 16 24.5C16 19.5 19 16 24 10Z" fill="#7C8C6E"/></svg>
+      <span class="word">Lumi<em>è</em>re</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="spa.html">Spa</a></li>
+        <li><a href="experts.html">Experts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="index.html#membership">Membership</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html#booking" class="btn btn-primary btn-sm"><span class="long">Book an Appointment</span><span class="short" aria-hidden="true">Book</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <div class="mobile-nav-top">
+    <a href="index.html" class="logo"><svg class="mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="24" cy="24" r="22" stroke="#A9825A" stroke-width="1.2"/><path d="M24 10c5 6 8 9.5 8 14.5A8 8 0 1 1 16 24.5C16 19.5 19 16 24 10Z" fill="#7C8C6E"/></svg><span class="word">Lumi<em>è</em>re</span></a>
+    <button class="mobile-nav-close" aria-label="Close menu"><i data-lucide="x"></i></button>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="spa.html">Spa</a></li>
+    <li><a href="experts.html">Experts</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="index.html#membership">Membership</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="mobile-nav-foot">
+    <a href="contact.html#booking" class="btn btn-primary btn-block">Book an Appointment</a>
+  </div>
+</div>
+
+<main id="main">
+
+<div class="page-header">
+  <div class="container">
+    <p class="eyebrow">Our Services</p>
+    <h1>Hair &amp; beauty, crafted around you</h1>
+    <p>Every service begins with a consultation so your stylist or therapist can tailor the experience to your hair, skin and goals.</p>
+  </div>
+</div>
+
+<section class="section-pad bg-ivory">
+  <div class="container">
+    <div class="filter-tabs" data-filter-group=".svc-card">
+      <button class="filter-tab active" data-category="all">All Services</button>
+      <button class="filter-tab" data-category="hair">Hair Services</button>
+      <button class="filter-tab" data-category="beauty">Beauty Services</button>
+    </div>
+
+    <div class="service-grid">
+      <!-- HAIR -->
+      <article class="service-card svc-card reveal reveal-1" data-category="hair">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-hair-styling/500/420" alt="Hair styling and blow-dry finish" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Hair Studio</span>
+          <h3>Hair Styling</h3>
+          <p class="desc">Precision cut, wash and finish styled to complement your face shape and lifestyle.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 60 min</span><span class="price">$95</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="service-card svc-card reveal reveal-2" data-category="hair">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-hair-coloring/500/420" alt="Balayage hair coloring application" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Hair Studio</span>
+          <h3>Hair Coloring</h3>
+          <p class="desc">Balayage, full color, root touch‑up or gloss with ammonia‑free, botanical formulas.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 120 min</span><span class="price">From $180</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="service-card svc-card reveal reveal-3" data-category="hair">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-hair-treatment/500/420" alt="Keratin smoothing hair treatment" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Hair Studio</span>
+          <h3>Keratin Treatment</h3>
+          <p class="desc">A smoothing, strengthening therapy that restores shine and reduces frizz for up to 4 months.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 150 min</span><span class="price">$260</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="service-card svc-card reveal reveal-1" data-category="hair">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-bridal-hair/500/420" alt="Bridal hair styling before the wedding ceremony" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Signature</span>
+          <h3>Bridal Package</h3>
+          <p class="desc">Trial session plus wedding‑day hair, makeup and glow ritual for the bride and her party.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 240 min</span><span class="price">From $650</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+
+      <!-- BEAUTY -->
+      <article class="service-card svc-card reveal reveal-2" data-category="beauty">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-facial/500/420" alt="Guest receiving a rejuvenating facial treatment" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Beauty Studio</span>
+          <h3>Signature Facial</h3>
+          <p class="desc">Deep cleanse, exfoliation and hydration ritual customized to your skin's needs.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 60 min</span><span class="price">$140</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="service-card svc-card reveal reveal-3" data-category="beauty">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-manicure/500/420" alt="Manicure and hand care treatment" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Beauty Studio</span>
+          <h3>Manicure</h3>
+          <p class="desc">Shape, cuticle care, hand massage and polish of your choice — gel or classic finish.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 45 min</span><span class="price">$55</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="service-card svc-card reveal reveal-1" data-category="beauty">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-pedicure/500/420" alt="Relaxing pedicure and foot spa treatment" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Beauty Studio</span>
+          <h3>Pedicure</h3>
+          <p class="desc">Warm soak, exfoliation, callus care and polish in our private pedicure lounge.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 55 min</span><span class="price">$65</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="service-card svc-card reveal reveal-2" data-category="beauty">
+        <div class="thumb"><img src="https://picsum.photos/seed/svc-makeup/500/420" alt="Professional makeup application" loading="lazy" width="500" height="420"></div>
+        <div class="body">
+          <span class="tagline">Beauty Studio</span>
+          <h3>Event Makeup</h3>
+          <p class="desc">Long‑wear, camera‑ready makeup application for special occasions and events.</p>
+          <div class="meta"><span class="duration"><i data-lucide="clock" style="width:14px;height:14px"></i> 50 min</span><span class="price">$110</span></div>
+          <a href="contact.html#booking" class="book-link">Book Now <i data-lucide="arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="ornament"><span class="l"></span><i data-lucide="flower-2"></i><span class="r"></span></div>
+
+<section class="section-pad bg-beige">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div>
+        <h2>Looking for spa treatments instead?</h2>
+        <p>Massage, head spa and body rituals live on our dedicated Spa page.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="spa.html" class="btn btn-light">Visit the Spa Menu</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><svg class="mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="24" cy="24" r="22" stroke="#C7A87C" stroke-width="1.2"/><path d="M24 10c5 6 8 9.5 8 14.5A8 8 0 1 1 16 24.5C16 19.5 19 16 24 10Z" fill="#AEBBA0"/></svg><span class="word">Lumi<em>è</em>re</span></a>
+      <p>A luxury salon and wellness studio devoted to unhurried beauty rituals and genuine restoration.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram" style="width:17px;height:17px"></i></a>
+        <a href="#" aria-label="Facebook"><i data-lucide="facebook" style="width:17px;height:17px"></i></a>
+        <a href="#" aria-label="Pinterest"><i data-lucide="pin" style="width:17px;height:17px"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="spa.html">Spa</a></li>
+        <li><a href="experts.html">Experts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Studio</h4>
+      <ul>
+        <li><a href="index.html#membership">Membership</a></li>
+        <li><a href="contact.html#booking">Book Appointment</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h4>Stay in Touch</h4>
+      <p>Seasonal rituals, offers and studio news — no more than twice a month.</p>
+      <form>
+        <label for="footer-email2" class="visually-hidden">Email address</label>
+        <input type="email" id="footer-email2" placeholder="Your email address" required>
+        <button type="submit" aria-label="Subscribe"><i data-lucide="arrow-right" style="width:16px;height:16px"></i></button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span class="current-year">2026</span> Lumière Wellness Studio. All rights reserved.</p>
+    <div class="legal-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+  </div>
+</footer>
+</body>
+</html>
